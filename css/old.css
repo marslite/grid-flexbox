@@ -10,52 +10,39 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('https://img.freepik.com/free-vector/abstract-medical-wallpaper-template-design_53876-61808.jpg?w=1800&t=st=1686621877~exp=1686622477~hmac=9b040d5804cc8ea31131d76b1493ac60e9651c8ec7e5e84c1b2f14d50c7e6b4a');
-    background-size: cover;
-    background-position: center;
+
+
+
+
 }
 
-
-
-
 #card{
-    background-color: rgb(255, 255, 255);
-    /* 17, 84, 85*/
+    background-color: rgb(17, 84, 85);
+    /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: flex-start; */
     margin: 0 auto;
     border-radius: 5%;
-    height: 550px;
+    height: 500px;
     width: 300px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: flex-end;
-    border-style: double;
-    border-color: rgb(16,79,83);
 }
 
 
 #status{
-    display: flex;
-    flex-direction: column;
-    justify-self: flex-end;
+
+    text-align: right;
     width: 100%;
-    height: 30%;
-    text-align: end;
-    /* margin-bottom: 12%; */
-    background-color: rgb(255,255,255);
-    /* border-style:double; */
-    border-radius: 30%;
-    margin-top: 0px;
-    /* border-style: inset solid; */
-    /* border-color: rgb(91, 203, 126); */
-    border-color: bisque;
-    text-decoration: rgb(122, 151, 151);
-}
-#online_status{
-    justify-content: end;
-    color: blue;
+    align-self: flex-end;
+    background-color: rgba(8,160,98);
+    border-style:solid;
+    border-radius: 5%;
+
+    border-color: greenyellow;
+
 }
 
 .image{
@@ -74,30 +61,16 @@ body{
     text-decoration:overline;
 }
 
-.reviews{
-    /* display: flex; */
-    /* align-items: flex-start; */
-    height: 1%;
-    width: 5%;
-
-}
-
 #description{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     background-color:rgb(241,241,241);
     width: 100%;
-    /* padding: 10px; */
-    text-align: center;
+    padding: 10px;
+    /* text-align: center; */
 }
 #psy{
     width: 100%;
     text-align: center;
-
 }
-
 
 
 #rates{
@@ -113,20 +86,19 @@ body{
     width: 100%;
     text-align: center;
     color:gray;
+
+
+
 }
 
 #contact{
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-top: 10px;
-    border-color: bisque;
-
 }
 
 #phone, #chat{
-    width: 100%;
-    height: auto;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,5 +109,5 @@ body{
     margin: 0 auto;
     height: 0 auto;
     width: 50px;
-    box-shadow: 50%;
+    box-shadow: 2%;
 }
