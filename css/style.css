@@ -53,9 +53,10 @@ body{
     border-color: bisque;
     text-decoration: rgb(122, 151, 151);
 }
-#online_status{
-    justify-content: end;
-    color: blue;
+h4{
+    /* justify-content: end; */
+    color: rgb(16,79,83);
+    text-decoration:double;
 }
 
 .image{
